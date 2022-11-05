@@ -39,7 +39,7 @@ const parseJsonResponse = function (response, textResponse, responseType) {
 }
 
 const addFallbackErrorMessage = function (error, textResponse) {
-  error.message = error.message || textResponse
+  error.message = textResponse
   return error
 }
 
