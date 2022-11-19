@@ -1,5 +1,8 @@
 A Netlify [OpenAPI](https://github.com/netlify/open-api) client that works in the browser and Node.js.
 
+Note: In this version, I've made some changes to the original Netlify package so that it can actually work properly in
+the browser(tested in a Next.js application)
+
 ## Usage
 
 ```js

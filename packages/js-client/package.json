@@ -1,7 +1,7 @@
 {
-  "name": "netlify",
+  "name": "netlify-browserify",
   "description": "Netlify Node.js API client",
-  "version": "13.0.2",
+  "version": "14.0.4",
   "type": "module",
   "exports": "./lib/index.js",
   "main": "./lib/index.js",
@@ -25,10 +25,10 @@
     "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
     "Lukas Holzer <lukas.holzer@netlify.com> (https://twitter.com/luka5c0m)"
   ],
-  "homepage": "https://github.com/netlify/build",
+  "homepage": "https://github.com/mhughdo/build",
   "repository": {
     "type": "git",
-    "url": "https://github.com/netlify/build.git"
+    "url": "https://github.com/mhughdo/build.git"
   },
   "bugs": {
     "url": "https://github.com/netlify/build/issues"
@@ -41,9 +41,9 @@
   ],
   "dependencies": {
     "@netlify/open-api": "^2.12.0",
+    "cross-fetch": "^3.1.5",
     "lodash-es": "^4.17.21",
     "micro-api-client": "^3.3.0",
-    "node-fetch": "^3.0.0",
     "omit.js": "^2.0.2",
     "p-wait-for": "^4.0.0",
     "qs": "^6.9.6"
@@ -60,6 +60,6 @@
     "uuid": "^8.3.2"
   },
   "engines": {
-    "node": "^14.16.0 || >=16.0.0"
+    "node": "^16.14.0 || >=17.1.0"
   }
 }
